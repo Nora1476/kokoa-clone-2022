@@ -1,0 +1,37 @@
+.settings-setting {
+  padding: 20px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-setting:not(.settings-setting:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.settings-setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings-setting-col:last-child {
+  opacity: 0.5;
+}
+
+.settings-setting-col {
+  display: flex;
+  align-items: center;
+}
+
+.settings-setting-col .badge {
+  margin-left: 10px;
+}
+
+.settings-cut-line {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}

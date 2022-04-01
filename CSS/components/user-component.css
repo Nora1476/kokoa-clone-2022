@@ -1,0 +1,82 @@
+.user-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-component_second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-component__column {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.user-component__column:first-child,
+.user-component__column:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__pic {
+  background-color: rgb(250, 253, 72);
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  margin-right: 30px;
+}
+
+.user-component__name {
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+}
+
+.user-component__sub {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+
+.user-component__sub i {
+  color: tomato;
+}
+
+.user-avatar {
+  width: 80px;
+  height: 80px;
+}
+
+.user-avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.user-component__name-not-bold {
+  font-weight: 400;
+}
+
+.user-component__column span {
+  margin-right: 5px;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__chat {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__chat-time {
+  display: block;
+  margin-bottom: 5px;
+}
